@@ -11,6 +11,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'lgold': '#f5f1e5',
+        'lorange': '#ffd480',
+        'lslate' : '#f2f3f0',
+        'lgrey' : '#8f8e8e',
+        'lbrown' : '#9f8655',
       },
     },
   },
