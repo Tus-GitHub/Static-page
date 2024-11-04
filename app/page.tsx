@@ -17,9 +17,9 @@ import { IoCloudDownloadOutline } from "react-icons/io5";
 
 export default function Page() {
   return (
-    <div className="flex flex-row">
-      <div className="bg-lgold w-1/6 h-screen">
-        <div className="flex flex-col static">
+    <div className="flex flex-row border border-red-400 ">
+      <div className="bg-lgold border-orange-400 w-64">
+        <div className="flex flex-col h-screen">
           <div>
           <p className="font-bold m-4 mb-8">CRMate</p>
           </div>
@@ -57,7 +57,7 @@ export default function Page() {
               <h1 className="pl-2 p-1">Documents</h1>
             </div>
           </div>
-          <div className="absolute bottom-3">
+          <div className="mt-64">
             <div className="flex flex-row bg-white ml-2 rounded-xl mr-2 p-1">
               <img 
                 src="\images.jpg"
@@ -69,7 +69,7 @@ export default function Page() {
                 <p className="text-xs ml-1 bg-lorange pl-2 p-1 rounded-2xl font-bold">Admin</p>
               </div>
               <button
-                className="rounded-md bg-lslate ml-20 mr-3 m-2 p-1"
+                className="rounded-md bg-lslate ml-10 mr-3 m-2 p-1"
               > 
                   <LiaSignOutAltSolid />
               </button>
@@ -77,8 +77,8 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="bg-white w-5/6 h-screen">
-        <div className="h-1/5 bg-lorange">
+      <div className="border border-black-400 w-full">
+        <div className=" bg-lorange flex flex-col">
           <div className="flex flex-row justify-between">
             <div className="ml-6 mt-4">
               <button className="bg-white p-2 rounded-lg"><GoArrowLeft /></button>
@@ -89,17 +89,17 @@ export default function Page() {
             <button className="bg-white p-2 rounded-lg"><GoBell /></button>
             </div>
           </div>
-          <div className="flex flex-row relative">
-            <div className="mt-6 relative bottom-2 left-1">
+          <div className="flex flex-row justify-between">
+            <div className="mt-6 ">
               <p className="ml-4 mb-2 text-5xl">Abstergo Ltd.</p>
               <h3 className="ml-4 mb- 2 text-sm text-lgrey">4517 Washington Ave. Manchester,Kentucky 39495</h3>
             </div>
-            <div className="absolute bottom-4 right-3">
-              <button className="flex flex-row bg-white p-2 rounded-lg font-semibold"><GoPlus className="pt-1 text-2xl" />  Add new invoice</button>
+            <div className="mt-12">
+              <button className="flex flex-row bg-white p-2 rounded-lg font-semibold mt-2 mr-3"><GoPlus className="pt-1 text-2xl" />  Add new invoice</button>
             </div>
           </div>
         </div>
-        <div className="h-4/5">
+        <div className="">
           <div className="flex border-b-2 border-lslate h-1/3">
             <div className="border-r-2 border-lslate w-1/2">
               <p className="font-semibold text-lg mt-2 ml-4">Overall</p>
